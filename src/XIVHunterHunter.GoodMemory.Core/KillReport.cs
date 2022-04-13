@@ -3,5 +3,5 @@ using System.Numerics;
 
 namespace XIVHunter.GoodMemory
 {
-    public record KillReport(DateTime DateTime, uint MonsterID, Vector2 Position);
+    public record KillReport(DateTime DateTime, uint ZoneID, byte LineIndex, uint MonsterID, Vector2 Position);
 }
